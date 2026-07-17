@@ -106,6 +106,7 @@ My research portfolio focuses on applied econometrics, labor economics, macroeco
 ---
 
 # 🏠 The Childcare Constraint
+
 ## Estimating the Causal Effect of Childcare Access on Labor Supply in Central Minnesota
 
 **Status:**  Working Paper (preparing for journal submission)
@@ -115,11 +116,13 @@ My research portfolio focuses on applied econometrics, labor economics, macroeco
 ---
 
 ## Research Question
+
 How does access to licensed childcare influence labor-force participation, employment, and full-time employment among parents with young children in Central Minnesota? 
 
 ---
 
 ## Motivation
+
 - Childcare affordability and availability remain among the largest barriers preventing parents from fully participating in the labor market.
 - Despite significant public investment, relatively little evidence exists measuring the local labor-market effects of childcare access using multiple causal       inference methods.
 - This study seeks to quantify those effects using public administrative and survey datasets.
@@ -127,7 +130,9 @@ How does access to licensed childcare influence labor-force participation, emplo
 ---
 
 ## Contribution
+
 This research
+
 - Integrates multiple public datasets into a unified analytical framework.
 - Estimates the relationship between childcare supply and labor-market outcomes.
 - Applies multiple econometric approaches to improve credibility.
@@ -137,6 +142,7 @@ This research
 ---
 
 ## Data Sources
+
 - American Community Survey (ACS PUMS)
 - Minnesota DHS/DCYF Childcare Licensing
 - Minnesota DEED
@@ -146,6 +152,7 @@ This research
 ---
 
 ## Methodology
+
 Difference-in-differences with two-way fixed effects (with HonestDiD sensitivity analysis)
 Instrumental variables
 Regression discontinuity centered on the CCAP income-eligibility threshold
@@ -155,16 +162,19 @@ Cluster-robust standard errors and alternative childcare-supply measures
 
 ---
 ### Key Findings (Preliminary)
+
 - Labor supply responses to childcare supply differ sharply by household type: estimates indicate a statistically significant negative labor-force participation    response among single mothers in higher-supply ZIP codes, alongside a positive employment response among single fathers.
 - Full-time employment shows a large discontinuity at the CCAP income-eligibility threshold, consistent with the subsidy cliff distorting work decisions — though   this estimate is sensitive to bandwidth choice and is reported with robustness caveats.
 - Results are robust across the DiD and IV designs; RD estimates are treated as suggestive.
 
 ---
 ### Summary
+
 Childcare policy debates usually assume that more childcare supply means more parents working. My results suggest the reality is more nuanced: responses differ by family structure, and the design of subsidy eligibility thresholds appears to matter as much as raw supply. For Minnesota policymakers, this implies that how childcare assistance phases out may be as important as how much childcare exists.
 
 ---
 ## Repository
+
 Code & Results Link: https://github.com/PBaffoe88/Economics/tree/main/ChildCare-labor-Supply
 
 ---
@@ -237,21 +247,19 @@ This thesis
 
 ---
 
-# 🏭 Monetary Policy and Inventory Dynamics
+# 🏭 Buffer Depletion and Price Instability
 
-**Status:** Working Paper
+# Monetary Policy and Inventory Dynamics in U.S. Manufacturing
 
-**Research Area**
+**Status**: Working Paper
 
-- Monetary Economics
-- Industrial Organization
-- Supply Chain Economics
+# Research Area: Monetary Economics • Industrial Organization • Supply Chain Economics
 
 ---
 
 ## Research Question
 
-Do monetary policy shocks influence inventory investment decisions within U.S. manufacturing?
+Do monetary policy shocks transmit to the real economy through manufacturers' inventory investment decisions — and does inventory buffer depletion amplify price instability?
 
 ---
 
@@ -276,39 +284,42 @@ This project investigates
 
 ## Data Sources
 
-- FRED
-- BEA
-- U.S. Census Bureau
+FRED, BEA, and U.S. Census Bureau manufacturing series.
 
 ---
 
 ## Methods
 
-- Time Series Econometrics
-- Dynamic Regression
-- Forecast Evaluation
-- Structural Analysis
+- Jordà-style local projection impulse response functions
+- Two-way fixed effects panel estimation
+- Full reproducible R pipeline with publication-quality figures
+
+**Software**:  R
 
 ---
+### Key Findings
 
-## Software
+- Following a contractionary monetary policy shock, inventory-intensive manufacturing sectors show a significant, persistent rise in inventory-to-shipments ratios — peaking near +0.4 and remaining elevated for roughly 18 months — consistent with shipments contracting faster than inventories can adjust.
+- Producer price volatility rises more in inventory-intensive sectors after tightening, peaking around six months post-shock and fading after roughly a year. A placebo shock shifted 12 months forward produces no comparable pattern, supporting a causal interpretation.
+- Split-sample estimates show high-inventory-intensity sectors cut inventories more sharply on impact than low-intensity sectors, then deplete buffers again at longer horizons — the "buffer depletion" dynamic that motivates the paper's title.
 
-- R
+---
+### Summary
 
+Inventories act as shock absorbers for the economy. This project measures what happens when monetary policy tightens and those buffers run down — with implications for both macroeconomic forecasting and business inventory planning.
+
+---
 ## Repository
 
-https://github.com/PBaffoe88/Economics/tree/main/Monetary-Policy-Inventory_Channel
+Code and Results: https://github.com/PBaffoe88/Economics/tree/main/Monetary-Policy-Inventory_Channel
 
 ---
 
 # 🛢️ Oil Prices and Geopolitical Risk
 
-**Status:** Working Paper
+**Status**: Working Paper (summary published on LinkedIn)
 
-**Research Area**
-
-- Energy Economics
-- Financial Economics
+**Research Area**: Energy Economics • Financial Economics
 
 ---
 
@@ -336,21 +347,39 @@ to evaluate dynamic relationships between uncertainty and commodity markets.
 
 ---
 
-## Methods
+# Data
 
-- Time Series Econometrics
-- Momentum Analysis
-- Forecast Evaluation
+Caldara–Iacoviello Geopolitical Risk (GPR) Index, oil price series, and macroeconomic indicators.
 
 ---
 
+## Methods
+
+- EGARCH volatility modeling
+- Markov-switching regime models
+- Jordà local projections
+
+---
+
+### Key Findings
+
+- A two-state Markov-switching model identifies a distinct high-volatility "crisis" regime in oil returns, with regime probabilities spiking around major           geopolitical episodes — the 1990 Gulf War, the late 1990s, the 2008 financial crisis, 2014–16, the 2020 pandemic shock, and 2022.
+- Local projection estimates show that a geopolitical risk shock is followed by a modest cumulative decline in WTI returns — on the order of 0.6 percent over the  following month of trading — rather than the sustained price spike conventional wisdom predicts, though the estimates are imprecise. Geopolitical risk manifests  primarily as volatility and regime-switching, not persistent price increases.
+
+--- 
+
+### Summary
+
+Oil markets react to geopolitical events within days, but how long those effects persist is less understood. This project models regime shifts in oil-price behavior around geopolitical risk shocks, with practical implications for commodity forecasting and hedging.
+
+---
 ## Software
 
 - R
 
 ## Repository
 
-https://github.com/PBaffoe88/Economics/tree/main/CrudeOil-Momentum-GeoP-Risk
+Code and Results: https://github.com/PBaffoe88/Economics/tree/main/CrudeOil-Momentum-GeoP-Risk
 
 ---
 
