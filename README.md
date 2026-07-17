@@ -99,43 +99,335 @@ My work emphasizes
 
 ---
 
-# Current Research Agenda
+# 🔬 Research Portfolio
 
-I am currently conducting research in the following areas.
-
-### 🏠 Childcare Economics
-
-Estimating the causal effects of childcare availability on labor-force participation and employment outcomes using ACS PUMS and Minnesota administrative datasets.
+My research portfolio focuses on applied econometrics, labor economics, macroeconomics, forecasting, and policy evaluation. Every project follows a reproducible workflow with documented data sources, transparent methodology, and publication-quality outputs.
 
 ---
 
-### 🌎 Fiscal Policy
+# 🏠 The Childcare Constraint
+## Estimating the Causal Effect of Childcare Access on Labor Supply in Central Minnesota
 
-Understanding how U.S. fiscal policy shocks propagate across OECD countries and influence international monetary policy.
+**Status:** Working Paper
 
----
+**Research Area**
 
-### 🏭 Monetary Policy
-
-Investigating the inventory channel of monetary policy transmission in U.S. manufacturing.
-
----
-
-### 🛢️ Energy Economics
-
-Analyzing oil-price momentum and geopolitical risk using modern time-series econometric techniques.
+- Labor Economics
+- Applied Microeconomics
+- Public Policy
+- Causal Inference
 
 ---
 
-### 📦 Supply Chain Economics
+## Research Question
 
-Developing quantitative inventory optimization models integrating forecasting, procurement planning, and operational analytics.
+How does access to licensed childcare influence labor-force participation, employment, and full-time employment among parents with young children in Central Minnesota?
 
 ---
 
-### 🤖 Machine Learning
+## Motivation
 
-Applying natural language processing and predictive machine learning models to economic and business datasets.
+Childcare affordability and availability remain among the largest barriers preventing parents from fully participating in the labor market.
+
+Despite significant public investment, relatively little evidence exists measuring the local labor-market effects of childcare access using multiple causal inference methods.
+
+This study seeks to quantify those effects using public administrative and survey datasets.
+
+---
+
+## Contribution
+
+This research
+
+- Integrates multiple public datasets into a unified analytical framework.
+- Estimates the relationship between childcare supply and labor-market outcomes.
+- Applies multiple econometric approaches to improve credibility.
+- Produces a fully reproducible research pipeline written entirely in R.
+- Demonstrates transparent and replicable empirical research practices.
+
+---
+
+## Data Sources
+
+- American Community Survey (ACS PUMS)
+- Minnesota DHS/DCYF Childcare Licensing
+- Minnesota DEED
+- Federal Reserve Economic Data (FRED)
+- Quarterly Census of Employment and Wages (QCEW)
+
+---
+
+## Methodology
+
+Primary Models
+
+- Ordinary Least Squares
+- Weighted Least Squares
+- Panel Data Regression
+
+Robustness Checks
+
+- Instrumental Variables
+- Event Study
+- Regression Discontinuity
+- Alternative Supply Measures
+- Cluster-Robust Standard Errors
+
+---
+
+## Software
+
+- R
+- RStudio
+- tidyverse
+- fixest
+- AER
+- rdrobust
+- modelsummary
+- ggplot2
+
+---
+
+## Repository
+
+*(Add GitHub repository link after publishing.)*
+
+---
+
+## Current Status
+
+Working Paper under continuous development.
+
+---
+
+# 🌎 Spillover Effects of U.S. Fiscal Policy on OECD Monetary Policy
+
+**Status:** Master's Thesis
+
+**Research Area**
+
+- Macroeconomics
+- International Economics
+- Monetary Economics
+
+---
+
+## Research Question
+
+How do expansionary U.S. fiscal policy shocks influence short-term interest rates across OECD economies?
+
+---
+
+## Motivation
+
+The United States plays a dominant role in the global economy. Understanding how fiscal policy transmits internationally provides insight into monetary policy coordination and macroeconomic interdependence.
+
+---
+
+## Contribution
+
+This thesis
+
+- Examines more than thirty OECD economies.
+- Identifies structural fiscal shocks.
+- Measures heterogeneous international responses.
+- Demonstrates cross-country differences in monetary policy transmission.
+
+---
+
+## Data Sources
+
+- OECD Statistics
+- Federal Reserve Economic Data (FRED)
+- National Accounts
+- Interest Rate Series
+
+---
+
+## Methodology
+
+- Structural VAR (SVAR)
+- ARDL
+- Cointegration
+- Impulse Response Functions
+- Forecast Error Variance Decomposition
+
+---
+
+## Software
+
+- R
+- Stata
+
+---
+
+## Repository
+
+*(Add GitHub repository after publication.)*
+
+---
+
+# 🏭 Monetary Policy and Inventory Dynamics
+
+**Status:** Working Paper
+
+**Research Area**
+
+- Monetary Economics
+- Industrial Organization
+- Supply Chain Economics
+
+---
+
+## Research Question
+
+Do monetary policy shocks influence inventory investment decisions within U.S. manufacturing?
+
+---
+
+## Motivation
+
+Inventories are an important but often overlooked transmission mechanism of monetary policy.
+
+Understanding this relationship improves both macroeconomic forecasting and business planning.
+
+---
+
+## Contribution
+
+This project investigates
+
+- Interest-rate transmission
+- Inventory accumulation
+- Production dynamics
+- Manufacturing adjustment
+
+---
+
+## Data Sources
+
+- FRED
+- BEA
+- U.S. Census Bureau
+
+---
+
+## Methods
+
+- Time Series Econometrics
+- Dynamic Regression
+- Forecast Evaluation
+- Structural Analysis
+
+---
+
+## Software
+
+- R
+
+## Repository
+
+*(Add GitHub repository link after publishing.)*
+
+---
+
+# 🛢️ Oil Prices and Geopolitical Risk
+
+**Status:** Working Paper
+
+**Research Area**
+
+- Energy Economics
+- Financial Economics
+
+---
+
+## Research Question
+
+How does geopolitical uncertainty influence oil-price momentum and market persistence?
+
+---
+
+## Motivation
+
+Oil prices respond rapidly to geopolitical events, yet relatively few studies examine persistence using momentum-based econometric methods.
+
+---
+
+## Contribution
+
+The study combines
+
+- Geopolitical Risk Index
+- Oil Prices
+- Macroeconomic Indicators
+
+to evaluate dynamic relationships between uncertainty and commodity markets.
+
+---
+
+## Methods
+
+- Time Series Econometrics
+- Momentum Analysis
+- Forecast Evaluation
+
+---
+
+## Software
+
+- R
+
+## Repository
+
+*(Add GitHub repository link after publishing.)*
+
+---
+
+# 📦 Order Cadence Model
+
+**Status:** Industry Project
+
+**Research Area**
+
+- Operations Research
+- Supply Chain Analytics
+- Inventory Optimization
+
+---
+
+## Objective
+
+Develop a quantitative decision-support framework integrating forecasting, inventory management, safety stock, procurement planning, and lead-time uncertainty.
+
+---
+
+## Contribution
+
+The model supports
+
+- Inventory Optimization
+- Procurement Planning
+- Risk Reduction
+- Demand Forecasting
+- Purchasing Decisions
+
+---
+
+## Methods
+
+- Forecasting
+- Inventory Analytics
+- Operations Research
+- Statistical Modeling
+
+---
+
+## Software
+
+- Excel
+- SQL
+- R
 
 ---
 
@@ -958,368 +1250,6 @@ Every project I undertake emphasizes
 - Practical relevance
 - Clear communication
 - Open-source analytical workflows
-
----
-
-# Research Portfolio
-
-My research portfolio focuses on applied econometrics, labor economics, macroeconomics, forecasting, and policy evaluation. Every project follows a reproducible workflow with documented data sources, transparent methodology, and publication-quality outputs.
-
----
-
-# 🏠 The Childcare Constraint
-## Estimating the Causal Effect of Childcare Access on Labor Supply in Central Minnesota
-
-**Status:** Working Paper
-
-**Research Area**
-
-- Labor Economics
-- Applied Microeconomics
-- Public Policy
-- Causal Inference
-
----
-
-## Research Question
-
-How does access to licensed childcare influence labor-force participation, employment, and full-time employment among parents with young children in Central Minnesota?
-
----
-
-## Motivation
-
-Childcare affordability and availability remain among the largest barriers preventing parents from fully participating in the labor market.
-
-Despite significant public investment, relatively little evidence exists measuring the local labor-market effects of childcare access using multiple causal inference methods.
-
-This study seeks to quantify those effects using public administrative and survey datasets.
-
----
-
-## Contribution
-
-This research
-
-- Integrates multiple public datasets into a unified analytical framework.
-- Estimates the relationship between childcare supply and labor-market outcomes.
-- Applies multiple econometric approaches to improve credibility.
-- Produces a fully reproducible research pipeline written entirely in R.
-- Demonstrates transparent and replicable empirical research practices.
-
----
-
-## Data Sources
-
-- American Community Survey (ACS PUMS)
-- Minnesota DHS/DCYF Childcare Licensing
-- Minnesota DEED
-- Federal Reserve Economic Data (FRED)
-- Quarterly Census of Employment and Wages (QCEW)
-
----
-
-## Methodology
-
-Primary Models
-
-- Ordinary Least Squares
-- Weighted Least Squares
-- Panel Data Regression
-
-Robustness Checks
-
-- Instrumental Variables
-- Event Study
-- Regression Discontinuity
-- Alternative Supply Measures
-- Cluster-Robust Standard Errors
-
----
-
-## Software
-
-- R
-- RStudio
-- tidyverse
-- fixest
-- AER
-- rdrobust
-- modelsummary
-- ggplot2
-
----
-
-## Repository
-
-*(Add GitHub repository link after publishing.)*
-
----
-
-## Current Status
-
-Working Paper under continuous development.
-
----
-
-# 🌎 Spillover Effects of U.S. Fiscal Policy on OECD Monetary Policy
-
-**Status:** Master's Thesis
-
-**Research Area**
-
-- Macroeconomics
-- International Economics
-- Monetary Economics
-
----
-
-## Research Question
-
-How do expansionary U.S. fiscal policy shocks influence short-term interest rates across OECD economies?
-
----
-
-## Motivation
-
-The United States plays a dominant role in the global economy. Understanding how fiscal policy transmits internationally provides insight into monetary policy coordination and macroeconomic interdependence.
-
----
-
-## Contribution
-
-This thesis
-
-- Examines more than thirty OECD economies.
-- Identifies structural fiscal shocks.
-- Measures heterogeneous international responses.
-- Demonstrates cross-country differences in monetary policy transmission.
-
----
-
-## Data Sources
-
-- OECD Statistics
-- Federal Reserve Economic Data (FRED)
-- National Accounts
-- Interest Rate Series
-
----
-
-## Methodology
-
-- Structural VAR (SVAR)
-- ARDL
-- Cointegration
-- Impulse Response Functions
-- Forecast Error Variance Decomposition
-
----
-
-## Software
-
-- R
-- Stata
-
----
-
-## Repository
-
-*(Add GitHub repository after publication.)*
-
----
-
-# 🏭 Monetary Policy and Inventory Dynamics
-
-**Status:** Working Paper
-
-**Research Area**
-
-- Monetary Economics
-- Industrial Organization
-- Supply Chain Economics
-
----
-
-## Research Question
-
-Do monetary policy shocks influence inventory investment decisions within U.S. manufacturing?
-
----
-
-## Motivation
-
-Inventories are an important but often overlooked transmission mechanism of monetary policy.
-
-Understanding this relationship improves both macroeconomic forecasting and business planning.
-
----
-
-## Contribution
-
-This project investigates
-
-- Interest-rate transmission
-- Inventory accumulation
-- Production dynamics
-- Manufacturing adjustment
-
----
-
-## Data Sources
-
-- FRED
-- BEA
-- U.S. Census Bureau
-
----
-
-## Methods
-
-- Time Series Econometrics
-- Dynamic Regression
-- Forecast Evaluation
-- Structural Analysis
-
----
-
-## Software
-
-- R
-
----
-
-# 🛢️ Oil Prices and Geopolitical Risk
-
-**Status:** Working Paper
-
-**Research Area**
-
-- Energy Economics
-- Financial Economics
-
----
-
-## Research Question
-
-How does geopolitical uncertainty influence oil-price momentum and market persistence?
-
----
-
-## Motivation
-
-Oil prices respond rapidly to geopolitical events, yet relatively few studies examine persistence using momentum-based econometric methods.
-
----
-
-## Contribution
-
-The study combines
-
-- Geopolitical Risk Index
-- Oil Prices
-- Macroeconomic Indicators
-
-to evaluate dynamic relationships between uncertainty and commodity markets.
-
----
-
-## Methods
-
-- Time Series Econometrics
-- Momentum Analysis
-- Forecast Evaluation
-
----
-
-## Software
-
-- R
-
----
-
-# 🤖 Machine Learning for Insurance Sentiment Analysis
-
-**Status:** Completed Research Project
-
-**Research Area**
-
-- Machine Learning
-- Natural Language Processing
-- Business Analytics
-
----
-
-## Research Question
-
-Can modern NLP algorithms accurately classify customer sentiment in life insurance reviews?
-
----
-
-## Contribution
-
-Compared multiple machine-learning approaches for sentiment classification while evaluating predictive performance and model robustness.
-
----
-
-## Algorithms
-
-- Support Vector Machines
-- LSTM
-- BERT
-
----
-
-## Software
-
-- Python
-
----
-
-# 📦 Order Cadence Model
-
-**Status:** Industry Project
-
-**Research Area**
-
-- Operations Research
-- Supply Chain Analytics
-- Inventory Optimization
-
----
-
-## Objective
-
-Develop a quantitative decision-support framework integrating forecasting, inventory management, safety stock, procurement planning, and lead-time uncertainty.
-
----
-
-## Contribution
-
-The model supports
-
-- Inventory Optimization
-- Procurement Planning
-- Risk Reduction
-- Demand Forecasting
-- Purchasing Decisions
-
----
-
-## Methods
-
-- Forecasting
-- Inventory Analytics
-- Operations Research
-- Statistical Modeling
-
----
-
-## Software
-
-- Excel
-- SQL
-- R
 
 ---
 
