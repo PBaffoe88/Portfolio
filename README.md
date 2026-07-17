@@ -108,37 +108,26 @@ My research portfolio focuses on applied econometrics, labor economics, macroeco
 # 🏠 The Childcare Constraint
 ## Estimating the Causal Effect of Childcare Access on Labor Supply in Central Minnesota
 
-**Status:** Working Paper
+**Status:**  Working Paper (preparing for journal submission)
 
-**Research Area**
-
-- Labor Economics
-- Applied Microeconomics
-- Public Policy
-- Causal Inference
+**Research Area**: Labor Economics • Applied Microeconomics • Public Policy • Causal Inference
 
 ---
 
 ## Research Question
-
-How does access to licensed childcare influence labor-force participation, employment, and full-time employment among parents with young children in Central Minnesota?
+How does access to licensed childcare influence labor-force participation, employment, and full-time employment among parents with young children in Central Minnesota? 
 
 ---
 
 ## Motivation
-
-Childcare affordability and availability remain among the largest barriers preventing parents from fully participating in the labor market.
-
-Despite significant public investment, relatively little evidence exists measuring the local labor-market effects of childcare access using multiple causal inference methods.
-
-This study seeks to quantify those effects using public administrative and survey datasets.
+- Childcare affordability and availability remain among the largest barriers preventing parents from fully participating in the labor market.
+- Despite significant public investment, relatively little evidence exists measuring the local labor-market effects of childcare access using multiple causal       inference methods.
+- This study seeks to quantify those effects using public administrative and survey datasets.
 
 ---
 
 ## Contribution
-
 This research
-
 - Integrates multiple public datasets into a unified analytical framework.
 - Estimates the relationship between childcare supply and labor-market outcomes.
 - Applies multiple econometric approaches to improve credibility.
@@ -148,7 +137,6 @@ This research
 ---
 
 ## Data Sources
-
 - American Community Survey (ACS PUMS)
 - Minnesota DHS/DCYF Childcare Licensing
 - Minnesota DEED
@@ -158,39 +146,26 @@ This research
 ---
 
 ## Methodology
+Difference-in-differences with two-way fixed effects (with HonestDiD sensitivity analysis)
+Instrumental variables
+Regression discontinuity centered on the CCAP income-eligibility threshold
+Cluster-robust standard errors and alternative childcare-supply measures
 
-Primary Models
-
-- Ordinary Least Squares
-- Weighted Least Squares
-- Panel Data Regression
-
-Robustness Checks
-
-- Instrumental Variables
-- Event Study
-- Regression Discontinuity
-- Alternative Supply Measures
-- Cluster-Robust Standard Errors
+### Software: R (fixest, rdrobust, ivreg, did, HonestDiD, modelsummary, ggplot2)
 
 ---
-
-## Software
-
-- R
-- RStudio
-- tidyverse
-- fixest
-- AER
-- rdrobust
-- modelsummary
-- ggplot2
+### Key Findings (Preliminary)
+- Labor supply responses to childcare supply differ sharply by household type: estimates indicate a statistically significant negative labor-force participation    response among single mothers in higher-supply ZIP codes, alongside a positive employment response among single fathers.
+- Full-time employment shows a large discontinuity at the CCAP income-eligibility threshold, consistent with the subsidy cliff distorting work decisions — though   this estimate is sensitive to bandwidth choice and is reported with robustness caveats.
+- Results are robust across the DiD and IV designs; RD estimates are treated as suggestive.
 
 ---
+### Summary
+Childcare policy debates usually assume that more childcare supply means more parents working. My results suggest the reality is more nuanced: responses differ by family structure, and the design of subsidy eligibility thresholds appears to matter as much as raw supply. For Minnesota policymakers, this implies that how childcare assistance phases out may be as important as how much childcare exists.
 
+---
 ## Repository
-
-https://github.com/PBaffoe88/Economics/tree/main/ChildCare-labor-Supply
+Code & Results Link: https://github.com/PBaffoe88/Economics/tree/main/ChildCare-labor-Supply
 
 ---
 
