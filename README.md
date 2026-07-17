@@ -190,7 +190,7 @@ Robustness Checks
 
 ## Repository
 
-*(Add GitHub repository link after publishing.)*
+https://github.com/PBaffoe88/Economics/tree/main/ChildCare-labor-Supply
 
 ---
 
