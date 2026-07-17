@@ -375,7 +375,7 @@ to evaluate dynamic relationships between uncertainty and commodity markets.
 
 ## Repository
 
-*(Add GitHub repository link after publishing.)*
+https://github.com/PBaffoe88/Economics/tree/main/CrudeOil-Momentum-GeoP-Risk
 
 ---
 
