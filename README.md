@@ -194,11 +194,6 @@ https://github.com/PBaffoe88/Economics/tree/main/ChildCare-labor-Supply
 
 ---
 
-## Current Status
-
-Working Paper under continuous development.
-
----
 
 # 🌎 Spillover Effects of U.S. Fiscal Policy on OECD Monetary Policy
 
