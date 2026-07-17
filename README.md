@@ -322,7 +322,7 @@ This project investigates
 
 ## Repository
 
-*(Add GitHub repository link after publishing.)*
+https://github.com/PBaffoe88/Economics/tree/main/Monetary-Policy-Inventory_Channel
 
 ---
 
