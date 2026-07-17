@@ -380,6 +380,7 @@ Oil markets react to geopolitical events within days, but how long those effects
 ## Repository
 
 Code and Results: https://github.com/PBaffoe88/Economics/tree/main/CrudeOil-Momentum-GeoP-Risk
+LinkedIn Article: https://www.linkedin.com/pulse/what-35-years-data-say-oil-prices-geopolitical-risk-paul-danso-qnvvc/
 
 ---
 
